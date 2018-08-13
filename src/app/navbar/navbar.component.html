@@ -14,11 +14,12 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" role="button">language</a>
-        <ul class="dropdown-menu">
-          <li>English</li>
-          <li>spanish</li>
-        </ul>
+        <button class="btn btn-outline-primary" ngbDropdownToggle>language</button>
+        <!--<a href="#" class="dropdown-toggle" role="button">language</a>-->
+        <div class="dropdown-menu" ngbDropdownMenu>
+          <button class=" dropdown-item">English</button>
+          <button class="dropdown-item">spanish</button>
+        </div>
       </li>
     </ul>
   </div>
